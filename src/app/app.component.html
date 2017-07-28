@@ -1,20 +1,92 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNTAgMjUwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNTAgMjUwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojREQwMDMxO30NCgkuc3Qxe2ZpbGw6I0MzMDAyRjt9DQoJLnN0MntmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxnPg0KCTxwb2x5Z29uIGNsYXNzPSJzdDAiIHBvaW50cz0iMTI1LDMwIDEyNSwzMCAxMjUsMzAgMzEuOSw2My4yIDQ2LjEsMTg2LjMgMTI1LDIzMCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAJIi8+DQoJPHBvbHlnb24gY2xhc3M9InN0MSIgcG9pbnRzPSIxMjUsMzAgMTI1LDUyLjIgMTI1LDUyLjEgMTI1LDE1My40IDEyNSwxNTMuNCAxMjUsMjMwIDEyNSwyMzAgMjAzLjksMTg2LjMgMjE4LjEsNjMuMiAxMjUsMzAgCSIvPg0KCTxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0xMjUsNTIuMUw2Ni44LDE4Mi42aDBoMjEuN2gwbDExLjctMjkuMmg0OS40bDExLjcsMjkuMmgwaDIxLjdoMEwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMUwxMjUsNTIuMQ0KCQlMMTI1LDUyLjF6IE0xNDIsMTM1LjRIMTA4bDE3LTQwLjlMMTQyLDEzNS40eiIvPg0KPC9nPg0KPC9zdmc+DQo=">
+<div fxLayout="column">
+
+  <div fxLayout="row" fxLayoutAlign="center">
+    
+    <div class = "bg-container">
+      <div fxLayout = "row">
+        <div class="header-container"  fxLayout = "column" fxLayoutAlign = "start center">
+          <img class = "inner-banner" src="../assets/img/innerbanner.png" alt="">
+          <div class = "nav-container" fxFlexAlign = "stretch" fxLayout = "column" fxLayoutAlign="center" >
+            <div class = "nav-items" fxLayout = "row" fxLayoutAlign = "space-between center"> 
+                <li class = "nav-item active">
+                  <a href="">INICIO</a>
+                </li>
+                <li class = "nav-item">
+                  <a href="">HISTORIA</a>
+                </li>
+                <li class = "nav-item">
+                  <a href="">PERSONAJES</a>
+                </li>
+                <li class = "nav-item">
+                  <a href="">SOUNDTRACK</a>
+                </li>
+                <li class = "nav-item">
+                  <a href="">GUIA</a>
+                </li>
+                <li class = "nav-item">
+                  <a href="">COMPAÑIA</a>
+                </li>
+            </div>          
+          </div>
+        </div>
+      </div>
+      <div fxLayout = "row" fxLayoutAlign="center">
+        <div class="main-content" fxLayout = "column" fxLayoutAlign = "space-between center">
+          <h1 class = "quote">“NO SOMOS ASESINOS. <br /> SÓLO SOBREVIVIMOS”</h1>
+          <div class="trailer-container"> 
+            <iframe class = "trailer" src="https://www.youtube.com/embed/OQWD5W3fpPM" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="review-container">
+            <p class="review">
+              “The Last Of Us” sigue a Joel, quien intenta proteger a su familia en los
+              primeros momentos del brote, sin embargo, un problema con los
+              militares le da un terrible giro a su vida. Al cabo de la introducción,
+              pasan 20 años y Joel se encuentra en un barrio protegido por el ejército
+              y el mundo nunca se pudo recuperar del incidente. La aventura
+              principal del juego comienza cuando la líder del grupo que se opone a
+              los militares contacta a Joel para pedirle que escolte a una niña, Ellie, a
+              un laboratorio. Ellie quizá es la última esperanza para la humanidad.
+            </p>
+          </div>
+          <button fxFlexAlign = "end" class="review-btn">Conoce más</button>
+        </div>
+      </div>
+      <div fxLayout = "row" fxLayoutAlign = "center">
+        <div class="footer" fxLayout = "column" fxLayoutAlign = "space-between">
+          <img src="../assets/img/footerborder.png" alt="">
+          <p class="footer-text">
+            ©2013 THE LAST OF US DE SONY COMPUTER ENTERTAINMENT AMERICA LLC. ES DESARROLLADO POR <br />
+            NAUGHTY DOG LLC. TODAS LAS DEMÁS MARCAS COMERCIALES Y DERECHOS DE AUTOR PERTENECEN A SUS RESPECTIVOS PROPIETARIOS. TODOS LOS DERECHOS <br />
+            RESERVADOS.
+          </p>
+          <div class = "collaborators" fxLayout = "row" fxLayoutAlign = "space-between">
+            <img id = "dolby" src="../assets/img/dd.png" alt="Dolby Digital">
+            <img id = "dts" src="../assets/img/dts.png" alt="DTS">
+            <img id = "havok" src="../assets/img/Havok-Logo.png" alt="Havok">
+            <img id = "bluray" src="../assets/img/bluray.png" alt="Blu-ray Disc">
+          </div>
+          <p class="footer-text">
+            THE LAST OF US SE ENCUENTRA DISPONIBLE EN
+          </p>
+          <div class="extra-info" fxLayout = "row" fxLayoutAlign = "space-between">
+            <div fxFlex = "12.5%">
+              <img id = "naughtydog" src="../assets/img/naughty dog.png" alt="Naughty Dog">
+            </div>
+            <div fxFlex = "50%" class = "consoles" fxLayout = "row" fxLayoutAlign = "center">
+              <img class = "console" src="../assets/img/ps3.png" alt="PS3">
+              <img class = "console" src="../assets/img/ps4.png" alt="PS4">
+            </div>
+            <div fxFlex = "12.5%" class = "social" fxLayout = "row" fxLayoutAlign = "space-around center">
+              <img id = "instagram" src="../assets/img/insta.png" alt="Instagram">
+              <img id = "twitter" src="../assets/img/twitter.png" alt="Twitter">
+              <img id = "facebook" class = "social-icon" src="../assets/img/facebook.png" alt="Facebook">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
-  </li>
-</ul>
+
 
